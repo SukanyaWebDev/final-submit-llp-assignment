@@ -15,7 +15,7 @@ class GreenLightRedLight extends Component {
 
  //This start function will  be call when the start button is clicked.
 //In this I used the setInterval method to implement the timer.
-// 
+ 
     startTime = () => {
         const { timer } = this.state
         let count = timer
