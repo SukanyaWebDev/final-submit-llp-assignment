@@ -1,0 +1,323 @@
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 40px;
+    color: white;
+    height: 300px;
+   
+    border-radius: 30px;
+    font-family: "Roboto";
+    font-weight: 700;
+
+}
+.register-heading{
+    font-family:"Lobster";
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.myNavBar {
+    display: flex;
+}
+
+.welcomepage {
+    color:#ffffff;
+    /* font-style: italic; */
+    font-family: "bree serif";
+}
+
+.navBar {
+    background-color:#45876f;
+    padding: 14px;
+    color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.successCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: green;
+    padding: 40px;
+    border-radius: 15px;
+
+}
+
+.failureCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:crimson;
+    padding: 30px;
+    border-radius: 15px;
+    font-size: medium;
+
+}
+
+.gamecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color:#a9c7bc;
+}
+
+.startButton {
+    border: none;
+    background-color:#3a363b;
+    color: beige;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    width:200px;
+}
+
+.green {
+    background-color: green;
+    color:#ffffff;
+    font-weight: 700;
+}
+
+.red {
+    background-color: red;
+    color:#ffffff;
+    font-weight: 700;
+}
+
+.gameCardButton {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: none;
+    outline: none;
+}
+
+label {
+    margin-right: 4px;
+}
+
+#userSelectionOption {
+    width: 59%;
+}
+
+.buttonEle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttonElement {
+    background-color: rgb(132, 132, 166);
+    color: white;
+    font-weight: 800;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    width:200px;
+}
+
+.labelItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.welcomepage {
+    color:#f2b8dd;
+}
+
+.LoginPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:radial-gradient(#347575,#1e2929);
+    flex-direction: column;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+select{
+    padding: 5PX;
+    border-radius: 5px;
+}
+
+
+
+.gameSuccess{
+    font-size: 22px;
+    color:#ffffff;
+    font-weight: 700;
+    margin-right: 5px;
+    font-style: italic;
+
+}
+
+
+@media screen and (max-width : 900px) {
+    .myForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        padding: 20px;
+        color:#000000;
+        background-color:aliceblue;
+        border-radius: 20px;
+        width: 300px;
+        height: 350px;
+        font-family: "Roboto";
+
+    }
+
+    .myNavBar {
+        display: flex;
+    }
+
+    .welcomepage {
+        color:#f2b8dd;
+    }
+
+    .navBar {
+        background-color: rgb(116, 174, 174);
+        padding: 14px;
+        color:#ffffff;
+        display: flex;
+        justify-content: space-between;
+        font-size: 9px;
+
+    }
+    input{
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .successCard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: green;
+        padding: 30px;
+
+    }
+
+    .failureCard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color:crimson;
+        padding: 40px;
+        border-radius: 15px;
+
+    }
+
+    .gamecard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        background-color: #ddc5e0;
+    }
+
+    .startButton {
+        border: none;
+        background-color:#4a394d;
+        color: beige;
+        font-weight: 600;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .green {
+        background-color: green;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .gameCardButton {
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: none;
+        outline: none;
+    }
+
+    label {
+        margin-right: 4px;
+    }
+
+    #userSelectionOption {
+        width: 59%;
+    }
+
+    .buttonEle {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .buttonElement {
+        background-color:fuchsia;
+        color: white;
+        font-weight: 800;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .labelItem {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .gameSuccess{
+        font-size: 35px;
+        color: #000000;
+        font-weight: 700;
+    }
+
+    .welcomepage {
+        color:#f2b8dd;
+    }
+
+    .LoginPage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color:rgb(52, 117, 117);
+        flex-direction: column;
+        
+    }
+
+}
+select{
+    padding: 5PX;
+    border-radius: 5px;
+}
+option{
+   padding: 4px;
+}
